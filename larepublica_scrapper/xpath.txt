@@ -1,0 +1,4 @@
+Links = //h2[contains(@class,"Headline") or contains(@class, "Article")]/a[not(@class)]/@href
+Titulo = //h1[@class="DefaultTitle"]/text()
+Resumen = //h2[@class="DefaultSubtitle"]/text()
+Cuerpo= //div[@class="page-internal-content"]/section/p/text()

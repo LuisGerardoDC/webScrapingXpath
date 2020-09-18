@@ -1,0 +1,33 @@
+slato de nodo //:
+	$x('//div')
+funcion de obtener Texto text():
+	$x('//div/text()')
+como obtener el padre de nodo /.. (similar a regresar directorio):
+	$x('//span/..')
+
+como obtener atributos @atributeName:
+	$x('//span/@class')
+
+predicados
+texto dentro de span(con clse text):
+	$x('//span[@class="text"]/text()')
+
+todos los span que tengan el atributo class:
+	$x('//span[@class]')
+
+el prmer y ultimo elemento encontrado
+	$x('/html/body/div/div[1]') primer elemento
+	$x('/html/body/div/div[last()]') ultimo elemento
+
+operadores logicos 
+	and
+	or
+	not
+
+
+whild cards:
+	* todo los nodos 
+
+
+obtener todas las news el pais (9/17/2020)
+	 //article//a[not(@class)]
